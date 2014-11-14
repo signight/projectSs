@@ -1,0 +1,21 @@
+.m-txtMarqueeLeft {
+  position: relative;
+  width: 755px;
+}
+.m-txtMarqueeLeft .bd .tempWrap {
+  width: 755px !important;
+}
+.m-txtMarqueeLeft .bd ul {
+  overflow: hidden;
+  zoom: 1;
+}
+.m-txtMarqueeLeft .bd ul li {
+  _display: inline;
+  float: left;
+  height: 33px;
+  width: auto !important;
+  margin-right: 20px;
+  line-height: 33px;
+  font-size: 14px;
+  text-align: left;
+}

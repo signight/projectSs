@@ -1,0 +1,105 @@
+//Colors   文字
+@black:                       #000;
+
+@blue-darker:                 #274955;
+@blue-dark:                   #5e808c;
+@gray-dark:                   #a5aaad;
+@gray-light:                  #909b9f;                      //
+@gray-lighter:                #bcbcbc;
+
+@brand-lightBlue-color:       #d7e2e4;
+@brand-darkBlue-color:        #526d77;
+@brand-darkerBlue-color:      #343f45;
+@brand-red-color:             #ff3300;
+@brand-grey-color:            #9cadb4;
+@brand-lightgrey-color:       #cbd4d9;
+
+//Scaffolding  基础结构
+@body-bg:                     #e8eef0;                      //背景色
+@text-color:                  @black;
+@link-color:                  @blue-dark;
+@link-hover-color:            lighten(@link-color, 10%);
+
+//Typography   文字定义
+@font-family-base:            ~"'\5B8B\4F53,'宋体'";
+@font-family-extend:          ~"'Microsoft YaHei',\5FAE\8F6F\96C5\9ED1,'微软雅黑', 'SimSun',\5B8B\4F53,'宋体'";
+@font-family-extend2:         ~"Arial";
+@font-size-base:              12px;
+@font-size-large:             ceil((@font-size-base*1.33));  //~16px;
+
+//@line-height-base:
+//@line-height-           
+
+//Components   组件定义
+@padding-base-vertical:       6px;
+@padding-base-horizontal:     12px;
+
+//z-index:     z轴定义
+@zindex-navbar:               1000;
+@zindex-dropdown:             1000;
+@zindex-popover:              1060;
+@zindex-tooltip:              1070;
+@zindex-navbar-fixed:         1030;
+@zindex-modal-background:     1040;
+@zindex-modal:                1050;
+
+//Screens  屏幕宽度设置
+//低端小屏设置
+@screen-xs:                   480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:                @screen-xs-min;
+//小屏设置
+@screen-sm:                   768px;
+@screen-sm-min:               @screen-sm;
+@screen-tablet:               @screen-sm-min;
+//普通屏设置
+@screen-md:                   992px;
+@screen-md-min:               @screen-md;
+@screen-desktop:              @screen-md-min;
+//宽屏设置
+@screen-lg:                   1200px;
+@screen-lg-min:               @screen-lg;
+@screen-lg-desktop:           @screen-lg-min;
+//设置屏幕宽度上限
+@screen-xs-max:               (@screen-sm - 1);
+@screen-sm-max:               (@screen-md - 1);
+@screen-md-max:               (@screen-lg - 1);
+
+//网格系统
+//网格格数
+@grid-columns:                12;
+//网格间隔宽度
+@grid-gutter-width:           30px;
+@grid-float-breakpoint:       @screen-sm-min;
+@grid-float-breakpoint-max:   (@grid-float-breakpoint - 1);
+
+//内容区域设置
+@container-tablet:            ((720px + @grid-gutter-width));
+@container-sm:                @container-tablet;
+
+@container-desktop:           ((940px + @grid-gutter-width));
+@container-md:                @container-desktop;
+
+@container-large-desktop:     ((1140px + @grid-gutter-width));
+@container-lg:                @container-large-desktop;
+
+//分页设置
+//
+// @pagination-color:                     @link-color;
+// @pagination-bg:                        #fff;
+// @pagination-border:                    #ddd;
+
+// @pagination-hover-color:               @link-hover-color;
+// @pagination-hover-bg:                  @gray-lighter;
+// @pagination-hover-border:              #ddd;
+
+// @pagination-active-color:              #fff;
+// @pagination-active-bg:                 @brand-lightBlue-color;
+// @pagination-active-border:             @brand-lightBlue-color;
+
+// @pagination-disabled-color:            @gray-light;
+// @pagination-disabled-bg:               #fff;
+// @pagination-disabled-border:           #ddd;
+
+//m-hd 
+@modelHead-border-color:               @gray-light;
