@@ -1,0 +1,127 @@
+.m-list3 {
+  padding: 1px 0 0;
+  zoom: 1;
+}
+.m-list3 ul {
+  margin: -11px 0 0;
+}
+.m-list3 ul li {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+  border-bottom: 1px dashed #364b52;
+}
+.m-list3 ul li .u-img {
+  float: left;
+  width: 78px;
+  height: 58px;
+  border: 1px solid #526d77;
+}
+.m-list3 ul li .txt {
+  float: right;
+  width: 100%;
+  overflow: hidden;
+  margin-left: -90px;
+}
+.m-list3 ul li .txt h3,
+.m-list3 ul li .txt p {
+  margin-left: 90px;
+  overflow: hidden;
+  line-height: 1.71;
+  font-size: 14px;
+  color: #364b52;
+}
+.m-list3 ul li .txt h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.m-list3 ul li .txt h3 a,
+.m-list3 ul li .txt h3 a:hover {
+  color: #333;
+}
+.m-list3 ul li .txt h3 span {
+  float: right;
+  font-weight: normal;
+}
+.m-list3 ul li .txt p.replyBtn {
+  padding: 10px 0;
+  text-align: right;
+}
+.m-list3 ul li .txt p.replyBtn a {
+  color: #364b52;
+}
+.m-list3 ul li .txt .replyed {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 30px;
+  padding: 15px 20px;
+  border: 1px solid #364b52;
+  background: #f3fbfd;
+}
+.m-list3 ul li .txt .replyed h3,
+.m-list3 ul li .txt .replyed p {
+  margin-left: auto;
+}
+.m-list3 ul li .txt .replyed:before {
+  position: absolute;
+  top: -20px;
+  left: 25px;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent transparent #364b52 transparent;
+  content: '';
+}
+.m-list3 ul li .txt .replyed:after {
+  position: absolute;
+  top: -19px;
+  left: 25px;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+  content: '';
+}
+.m-list3 ul li .txt .reply_temp {
+  position: relative;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #364b52;
+}
+.m-list3 ul li .txt .reply_temp textarea {
+  width: 100%;
+  height: 105px;
+  font-size: 14px;
+  line-height: 1.8;
+  border: none;
+  background: none;
+}
+.m-list3 ul li .txt .submit {
+  margin-bottom: 30px;
+  font-size: 14px;
+  text-align: right;
+}
+.m-list3 ul li .txt .submit .subChar {
+  float: left;
+  font-size: 12px;
+}
+.m-list3 ul li .txt .submit .subChar span {
+  padding: 0 10px;
+  color: #f82525;
+}
+.m-list3 ul li .txt .submit .cancelBtn {
+  margin-right: 10px;
+}
+.m-list3 ul li .txt .submit .submitBtn {
+  display: inline-block;
+  padding: 1px;
+  border: 1px solid #5f7f8c;
+}
+.m-list3 ul li .txt .submit .submitBtn a {
+  display: block;
+  padding: 2px 12px;
+  color: #fff;
+  background: #5f7f8c;
+}

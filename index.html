@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>中国诗歌网</title>
 	<link rel="stylesheet" href="css/main.css">
-	<script src="js/css3-mediaqueries.js"></script>
 </head>
 <body>
 	<div class="g-hd">
@@ -38,7 +37,7 @@
 		</div>
 		<div class="m-hdb">
 			<div class="content">
-				<div class="navWrap">
+				<div class="m-nav">
 					<div class="nav">
 						<div class="nav1 f-cb">
 							<ul class="f-cb">
@@ -115,7 +114,7 @@
 	</div>
 	<div class="g-bd f-cb">
 		<div class="m-bdt">
-			<div class="row row1 f-cb">
+			<div class="row m-hotPanel f-cb">
 				<div class="l">
 					<div class="row1">
 						<span class="year">2014-11-</span><span class="date">10</span><span class="day">星期一</span>
@@ -158,7 +157,7 @@
 		</div>
 		<div class="m-bdb f-cb">
 			<div class="m-bdbl">
-				<div class="row row1 m-slideBox m-slideBox1">
+				<div class="row row1 m-slideBox">
 					<div class="hd">
 						<ul><li><a href="javascript:;">1</a></li><li><a href="javascript:;">2</a></li><li><a href="javascript:;">3</a></li></ul>
 					</div>
@@ -170,8 +169,8 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row row2">
-					<dl class="f-cb m-slideBoxUp">
+				<div class="row row2 m-slideBoxUp">
+					<dl class="f-cb">
 						<dt class="hd f-cb">
 							<ul>
 								<li class="on">
@@ -703,7 +702,7 @@
 					</dl>
 				</div>
 				<div class="row row3 f-cb">
-					<div class="l">
+					<div class="m-rowBox f-fl">
 						<div class="m-slideTxtBox">
 							<ul class="nav nav-tabs hd f-cb" role="tablist">
 								<li role="shijiatianxia" class="on">
@@ -797,7 +796,7 @@
 					</div>
 				</div>
 				<div class="row row4">
-					<div class="row row1 m-slideBox m-slideBox2">
+					<div class="m-slideBox m-slideBox2">
 						<div class="hd">
 							<ul><li><a href="">1</a></li><li><a href="">2</a></li><li><a href="">3</a></li></ul>
 						</div>
@@ -811,7 +810,7 @@
 					</div>
 				</div>
 				<div class="row row5 f-cb">
-					<div class="l">
+					<div class="m-rowBox f-fl">
 						<div class="m-slideTxtBox">
 							<ul class="nav nav-tabs hd f-cb" role="tablist">
 								<li role="mingzuoxinshang" class="on">
@@ -834,7 +833,7 @@
 								</li>
 							</ul>
 							<div class="tab-content bd">
-								<div class="tab-panel">
+								<div class="tab-panel active">
 									<ul>
 										<li><a href="">《古诗十九首·行行重行行》11<span>李白</span></a></li>
 										<li><a href="">《古诗十九首·行行重行行》<span>李白</span></a></li>
@@ -879,7 +878,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="r">
+					<div class="m-rowBox f-fr">
 						<div class="m-slideTxtBox">
 							<ul class="nav nav-tabs hd f-cb" role="tablist">
 								<li role="mingzuoxinshang" class="on">
@@ -902,7 +901,7 @@
 								</li>
 							</ul>
 						<div class="tab-content bd">
-							<div class="tab-panel on" id="mzxsPanel">
+							<div class="tab-panel active on" id="mzxsPanel">
 								<ul>
 									<li><a href="">《古诗十九首·行行重行行》<span>李白</span></a></li>
 									<li><a href="">《古诗十九首·行行重行行》<span>李白</span></a></li>
@@ -949,7 +948,7 @@
 					</div>
 				</div>
 				<div class="row row6 f-cb">
-					<div class="l">
+					<div class="m-rowBox f-fl">
 						<div class="m-slideTxtBox">
 							<ul class="nav nav-tabs hd f-cb" role="tablist">
 								<li role="zhimeikanwu" class="on">
@@ -966,7 +965,7 @@
 								</li>
 							</ul>
 							<div class="tab-content bd">
-								<div class="tab-panel on">
+								<div class="tab-panel active on">
 									<div class="m-picScroll-left">
 										<div class="bd" id="picScrollLeft">
 											<ul class="picList">
@@ -1023,7 +1022,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="r">
+					<div class="m-rowBox f-fr">
 						<div class="m-slideTxtBox">
 							<ul class="nav nav-tabs hd f-cb" role="tablist">
 								<li role="shirenshuoshi" class="on">
@@ -1195,52 +1194,56 @@
 			</div>
 			<div class="m-bdbr">
 				<div class="row row1">
-					<div class="title">
+					<div class="m-sidePanel shitanfengyun">
+						<div class="title f-cb">
 						<h1 title="诗坛风云" class="h1">
 							<span class="title">诗坛风云</span>
 							<span class="sub"><p>shitanfengyun</p></span>
 						</h1>
-					</div>
-					<div class="body">
-						<ul>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href="">诗人景捷升获邓小平诞辰诗歌赛奖</a></li>
-							<li><a href="">文天祥过零丁洋黄河远上白云间</a></li>
-							<li><a href="">《中国诗歌排行榜》收录八岁小诗人</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-						</ul>
-						<div class="more">
-							<a href="javascript:;">更多&gt;&gt;</a>
+						</div>
+						<div class="body">
+							<ul>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href="">诗人景捷升获邓小平诞辰诗歌赛奖</a></li>
+								<li><a href="">文天祥过零丁洋黄河远上白云间</a></li>
+								<li><a href="">《中国诗歌排行榜》收录八岁小诗人</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+							</ul>
+							<div class="more">
+								<a href="javascript:;">更多&gt;&gt;</a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row row2">
-					<div class="title">
-						<h1 title="名家快递" class="h1">
-							<span class="title">名家快递</span>
-							<span class="sub"><p>mingjiakuaidi</p></span>
-						</h1>
-					</div>
-					<div class="body">
-						<ul>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href="">诗人景捷升获邓小平诞辰诗歌赛奖</a></li>
-							<li><a href="">文天祥过零丁洋黄河远上白云间</a></li>
-							<li><a href="">《中国诗歌排行榜》收录八岁小诗人</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-							<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
-						</ul>
-						<div class="more">
-							<a href="javascript:;">更多&gt;&gt;</a>
+					<div class="m-sidePanel mingjiakuadi">
+						<div class="title f-cb">
+							<h1 title="名家快递" class="h1">
+								<span class="title">名家快递</span>
+								<span class="sub"><p>mingjiakuaidi</p></span>
+							</h1>
+						</div>
+						<div class="body">
+							<ul>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href="">诗人景捷升获邓小平诞辰诗歌赛奖</a></li>
+								<li><a href="">文天祥过零丁洋黄河远上白云间</a></li>
+								<li><a href="">《中国诗歌排行榜》收录八岁小诗人</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+								<li><a href=""><span>洛夫</span>《夕阳无限好》</a></li>
+							</ul>
+							<div class="more">
+								<a href="javascript:;">更多&gt;&gt;</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row row3">
+				<div class="row row3 tianlaizhiyin">
 					<div class="video">
 						<div class="title" title="天籁之音">天籁之音</div>
 						<img src="images/bofangqi.jpg" alt="">
@@ -1387,6 +1390,10 @@
 	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
 	<script src="js/marquee.js"></script>
 	<script>
+		jQuery(".m-slideBox").slide({
+			mainCell:".bd ul",
+			effect:"leftLoop"
+		});
 		jQuery(".m-slideBox").slide({
 			mainCell:".bd ul",
 			effect:"leftLoop"

@@ -1,0 +1,29 @@
+.m-intro {
+  position: relative;
+  border: 1px solid #5f7f8c;
+  background: #cad8dd;
+}
+.m-intro .hd:before {
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background: url(../images/wenlu.png) repeat-x;
+  content: '';
+}
+.m-intro .hd .img {
+  height: 175px;
+  padding: 10px;
+  text-align: right;
+  border-bottom: 1px solid #5f7f8c;
+  background: url(../images/geren.jpg) no-repeat 10px 10px;
+}
+.m-intro .hd .img img {
+  width: 233px;
+  height: 174px;
+  border: 1px solid #5f7f8c;
+}
+.m-intro .hd .title {
+  font-size: 18px;
+}

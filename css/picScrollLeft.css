@@ -16,7 +16,7 @@
   margin: 0 8px;
   overflow: hidden;
   text-align: center;
-  border: none;
+  border: none !important;
 }
 .m-picScroll-left .bd ul li .pic {
   text-align: center;

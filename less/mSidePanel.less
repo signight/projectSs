@@ -1,0 +1,145 @@
+.m-sidePanel{
+	>.title{
+		position: relative;
+		background: url(../images/wenlu.png) repeat-x 3px 33px;
+		z-index: 999;
+		.h1{
+			position: relative;
+			float: left;
+			z-index: 1000;
+			min-width: 130px;
+			height: 30px;
+			padding:5px 0;
+			border: 1px solid #5f7f8c;
+			border-bottom: none;
+			font-weight: normal;
+			word-wrap:normal;
+			white-space:nowrap;
+			background:#cad8dd;
+			span{
+			display: block;
+			width: 100%;
+			color: #526d77;
+			text-align: center;
+			&.title{
+				font-family:@font-family-extend;
+			    font-size: 16px;
+			}
+			&.sub{
+				font-family: @font-family-extend2;
+				font-weight: normal;
+				font-size: 10px \9;
+				font-size: 12px;
+				text-transform: uppercase;
+				background: #8aa5af;
+					p{
+						color: #cad8dd;
+						transform:scale( 10 / 12);
+					}
+				}
+			}
+		}
+	}
+	.body{
+		position: relative;
+		padding:8px 20px 16px;
+		border: 1px solid #5f7f8c;
+		&:after{
+			position: absolute;
+			bottom: 2px;
+			left: 0;
+			right: 0;
+			height: 7px;
+			background: url(../images/wenlu.png) repeat-x;
+			content: '';
+		}
+		ul{
+			li{
+				padding:5px 0;
+				font-size: 14px;
+				border-bottom: 1px dashed #a7bdc5;
+				a{
+					display: block;
+					.r{
+						float: right;
+					}
+				}
+				&:last-child,&.last{
+					border-bottom: none;
+				}
+			}
+		}
+		.more{
+			margin-top: 4px;
+			font-size: 14px;
+			a{
+				display: block;
+				text-align: right;
+			}
+		}
+	}
+}
+.m-sidePanelFull{
+	>.title{
+		position: relative;
+		border: 1px solid #5f7f8c;
+		border-bottom: none;
+		height: 40px;
+		text-align: center;
+		background:#cad8dd;
+		.h1{
+			padding-top: 5px;
+			.title{
+				display: block;
+				font-family:@font-family-extend;
+				font-weight: normal;
+				font-size: 16px;
+				color: #526d77;
+			}
+			.sub{
+				display: inline-block;
+				font-family: @font-family-extend2;
+				font-weight: normal;
+				font-size: 10px \9;
+				font-size: 12px;
+				color: #cad8dd;
+				text-transform: uppercase;
+				background: #8aa5af;
+				p{
+					transform:scale( 10 / 12);
+				}
+			}
+		}
+	}
+	.body{
+		position: relative;
+		padding:8px 20px 30px;
+		border: 1px solid #5f7f8c;
+		&:after{
+			position: absolute;
+			bottom: 2px;
+			left: 0;
+			right: 0;
+			height: 7px;
+			background: url(../images/wenlu.png) repeat-x;
+			content: '';
+		}
+		ul{
+			li{
+				font-size: 14px;
+				line-height: (12*2.3/14);
+				border-bottom: 1px dashed #a7bdc5;
+				a{
+					display: block;
+					color: #364b52;
+					span{
+						float: right;
+					}
+				}
+				&:last-child,&.last{
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}

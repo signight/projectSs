@@ -1,0 +1,63 @@
+/* 多行式面包屑导航-默认竖线分隔 */
+.m-crumb{
+	overflow:hidden;
+	line-height:2.3;
+	background: url(../images/wenlu.png) repeat-x left 12px;
+	ul{
+		// margin-left:-20px;
+		&:before{
+			float: left;
+			display: inline-block;
+			width: 32px;
+			height: 14px;
+			margin-top: 9px;
+			content: '';
+			background: #526d77;
+		}
+	}
+	li{
+		float:left;
+		font-size: 14px;
+		color: #526d77;
+		word-wrap:normal;
+		white-space:nowrap;
+		background: #e8eef0;
+		&:before{
+			display:inline-block;
+			width:20px;
+			text-align:center;
+			content:'|';
+			font-size:14px;
+			color:#526d77;
+			font-family:\5b8b\4f53;
+		}
+		&:first-child{
+			&:before{
+				width: 10px;
+				content: '';
+			}
+		}
+		a{
+			color: #526d77;
+		}
+		&:last-child{
+			padding-right: 10px;
+		}
+	}
+}
+/* 箭头分隔 */
+.m-crumb-arr{
+	li:before{
+		content:'\3E';
+	}
+}
+/* 空白分隔 */
+.m-crumb-blank{
+	ul{
+		margin-left:-10px;
+		li:before{
+			width:10px;
+			content:'';
+		}
+	}
+}

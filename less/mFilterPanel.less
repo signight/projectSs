@@ -1,0 +1,99 @@
+.m-filterPanel{
+	position: relative;
+	width: 100%;
+	background: #cad4d8;
+	&:before,&:after{
+		position: absolute;
+		top: 4px;
+		right: 4px;
+		left: 4px;
+		height: 7px;
+		background: url(../images/wenlu.png) repeat-x;
+		content: '';
+	}
+	&:after{
+		top: auto;
+		bottom: 4px;
+	}
+	.content{
+		position: relative;
+		padding:16px 16px 20px 32px;
+		border:1px solid #5f7f8c;
+		&:before,&:after{
+			position: absolute;
+			top: 11px;
+			left: 3px;
+			bottom: 11px;
+			width: 8px;
+			background: url(../images/wenlu3.png) repeat-y;
+			content:'';
+		}
+		&:after{
+			left:auto;
+			right: 2px;
+		}
+		>ul{
+			>li{
+				padding:8px 0;
+				font-size: 14px;
+				border-bottom:1px dashed #7997a2;
+				&:last-child,&.last{
+					border-bottom: none;
+				}
+				.title{
+					display: inline-block;
+					padding:1px;
+					border: 1px solid #5f7f8c;
+					background: #fff;
+					span{
+						display: block;
+						padding:3px 16px;
+						color: #e8eef0;
+						background: #5f7f8c;
+					}
+				}
+				dl{
+					dt{
+						position: relative;
+						float: left;
+						width: 84px;
+						line-height: 24px;
+						font-size: 14px;
+						font-weight: bold;
+						text-align: center;
+						color: #364b52;
+					}
+					dd{
+						float: right;
+						width: 100%;
+						margin-left: -84px;
+						ul{
+							margin-left: 84px;
+							li{
+								float: left;
+								//line-height: 1.4;
+								margin-right: 15px;
+								padding:1px;
+								border:1px solid transparent;
+								a{
+									display: block;
+									padding:1px 5px;
+									border: 1px solid transparent;
+								}
+								&.active{
+									border:1px solid #5f7f8c;
+									background: #e1eff4;
+									a{
+										
+										border:1px solid #93acb6;
+									}
+								}
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

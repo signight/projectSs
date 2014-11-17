@@ -1,0 +1,56 @@
+.m-intro{
+	position: relative;
+	border: 1px solid #5f7f8c;
+	background: #cad8dd;
+	.hd{
+		&:before{
+			position: absolute;
+			top: -9px;
+			left: 0;
+			right: 0;
+			height: 7px;
+			background: url(../images/wenlu.png) repeat-x;
+			content:'';
+		}
+		.img{
+            height: 175px;
+            padding:10px;
+            text-align: right;
+            border-bottom:1px solid #5f7f8c;
+            background: url(../images/geren.jpg) no-repeat 10px 10px;
+            img{
+            	width: 233px;
+            	height: 174px;
+            	border:1px solid #5f7f8c;
+            }
+		}
+		.title{
+			position: relative;
+			height: 44px;
+			line-height: 44px;
+			margin-bottom: 10px;
+			font-family: @font-family-extend;
+			font-size: 18px;
+			color: #364b52;
+			text-align: center;
+			&:after{
+				position: absolute;
+				right: 0;
+				bottom: -7px;
+				left: 0;
+				height: 7px;
+				background: url(../images/wenlu.png) repeat-x;
+				content: '';
+			}
+		}
+	}
+	.bd{
+		padding:25px 18px;
+		font-size: 14px;
+		line-height: 2;
+		background: #e8eef0;
+		p.indent{
+			text-indent: 2em;
+		}
+	}
+}
